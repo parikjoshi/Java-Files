@@ -1,0 +1,108 @@
+Wrapper classes
+
+java is not pure object oriented
+
+yes
+
+primitives
+
+int a = 10;
+
+autoboxing
+unboxing
+
+primitive to object
+Integer i=new Integer(10);
+
+String s = "10";
+String s = new String("10");
+
+enum
+
+wrapper classes - data interact
+
+collection framework
+db
+other application
+
+objects
+
+primitive have there respective wrapper class
+
+
+primitive  int,float,double,char
+wrapper class Integer,Float,Double,Character
+constructor (int,string),(float,String),(float,double,String),(char)
+
+wrapper classes conversion
+
+1)WrapperClass.parseDT()  -String to primitive
+
+String a="10.56";
+a+11;
+1011
+
+double b = Double.parseDouble(a);
+b+11
+21
+
+2)valueOf() - String to wrapper object
+
+String a="10";
+
+Integer i = Integer.valueOf(a);
+
+
+Wrapper object
+
+primitive   - DtValue()  i.intValue()
+String		- toString() i.toString() 
+
+
+int to string
+
+int a = 10;
+Integer i=new Integer(a);
+String a = i.toString();
+
+a.length();
+
+
+toString()
+
+string representation of an object
+
+String
+
+is immutable
+
+
+declaration
+
+String literal - String constant pool
+new keyword - heap
+
+Comparison
+
+1).equals() || .equalsIgnoreCase()
+2)==
+3)compareTo()  -ve,+ve,0
+
+
+String a  = "Sachin";
+String b = "SACHIN";
+String c = "Sanju";
+String d  = new String("Sachin");
+
+c=3
+n=14
+
+-11
+
+a.equals(b);     false
+a.equals(c);      true
+a.equals(d);      true
+
+
+a==c;     true
+a==d;     false
